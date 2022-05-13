@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import './App.css';
-
+import CatContainer from './components/CatContainer';
 function App() {
  
 
@@ -15,9 +15,11 @@ function App() {
   useEffect (() => { request() }, [] )
   
   
-return (
-    <h1>fetching</h1>
-    
+  return (
+    // <h1>fetching</h1>
+    <div> 
+      <catContainer data={data} />
+    </div>
   );
 }
 
