@@ -13,12 +13,12 @@ function App() {
     } 
     
   useEffect (() => { request() }, [] )
-  
+  console.log(data)
   
   return (
     // <h1>fetching</h1>
     <div> 
-      <catContainer data={data} />
+      <CatContainer data={data} />
     </div>
   );
 }

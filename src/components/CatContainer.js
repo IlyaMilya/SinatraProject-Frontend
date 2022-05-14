@@ -1,7 +1,7 @@
 import React from "react";
 import CatCard from './CatCard'
 
-function catContainer ({data}) {
+function CatContainer ({data}) {
     return(
         <main>
             <ul className="cards">
@@ -16,4 +16,4 @@ function catContainer ({data}) {
         </main>
     )
 }
-export default catContainer;
+export default CatContainer;
